@@ -5,7 +5,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/urfave/cli"
+	"github.com/cam-per/cli"
 	"io/ioutil"
 	"log"
 	"os"

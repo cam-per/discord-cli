@@ -1,13 +1,13 @@
 cli
 ===
 
-[![Build Status](https://travis-ci.org/urfave/cli.svg?branch=master)](https://travis-ci.org/urfave/cli)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/rtgk5xufi932pb2v?svg=true)](https://ci.appveyor.com/project/urfave/cli)
+[![Build Status](https://travis-ci.org/cam-per/cli.svg?branch=master)](https://travis-ci.org/cam-per/cli)
+[![Windows Build Status](https://ci.appveyor.com/api/projects/status/rtgk5xufi932pb2v?svg=true)](https://ci.appveyor.com/project/cam-per/cli)
 
-[![GoDoc](https://godoc.org/github.com/urfave/cli?status.svg)](https://godoc.org/github.com/urfave/cli)
+[![GoDoc](https://godoc.org/github.com/cam-per/cli?status.svg)](https://godoc.org/github.com/cam-per/cli)
 [![codebeat](https://codebeat.co/badges/0a8f30aa-f975-404b-b878-5fab3ae1cc5f)](https://codebeat.co/projects/github-com-urfave-cli)
-[![Go Report Card](https://goreportcard.com/badge/urfave/cli)](https://goreportcard.com/report/urfave/cli)
-[![codecov](https://codecov.io/gh/urfave/cli/branch/master/graph/badge.svg)](https://codecov.io/gh/urfave/cli)
+[![Go Report Card](https://goreportcard.com/badge/cam-per/cli)](https://goreportcard.com/report/cam-per/cli)
+[![codecov](https://codecov.io/gh/cam-per/cli/branch/master/graph/badge.svg)](https://codecov.io/gh/cam-per/cli)
 
 This is the library formerly known as `github.com/codegangsta/cli` -- Github
 will automatically redirect requests to this repository, but we recommend
@@ -69,7 +69,7 @@ the install instructions for Go](http://golang.org/doc/install.html).
 
 To install cli, simply run:
 ```
-$ go get github.com/urfave/cli
+$ go get github.com/cam-per/cli
 ```
 
 Make sure your `PATH` includes the `$GOPATH/bin` directory so your commands can
@@ -97,13 +97,13 @@ that, please use whatever version pinning of your preference, such as via
 `gopkg.in`:
 
 ```
-$ go get gopkg.in/urfave/cli.v2
+$ go get gopkg.in/cam-per/cli.v2
 ```
 
 ``` go
 ...
 import (
-  "gopkg.in/urfave/cli.v2" // imports as package "cli"
+  "gopkg.in/cam-per/cli.v2" // imports as package "cli"
 )
 ...
 ```
@@ -115,13 +115,13 @@ to avoid any unexpected compatibility pains once `v2` becomes `master`, then
 pinning to `v1` is an acceptable option, e.g.:
 
 ```
-$ go get gopkg.in/urfave/cli.v1
+$ go get gopkg.in/cam-per/cli.v1
 ```
 
 ``` go
 ...
 import (
-  "gopkg.in/urfave/cli.v1" // imports as package "cli"
+  "gopkg.in/cam-per/cli.v1" // imports as package "cli"
 )
 ...
 ```
@@ -144,7 +144,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -169,7 +169,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -211,7 +211,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -278,7 +278,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -311,7 +311,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -359,7 +359,7 @@ import (
   "os"
   "fmt"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -396,7 +396,7 @@ func main() {
 }
 ```
 
-See full list of flags at http://godoc.org/github.com/urfave/cli
+See full list of flags at http://godoc.org/github.com/cam-per/cli
 
 #### Placeholder Values
 
@@ -416,7 +416,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -461,7 +461,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -506,7 +506,7 @@ import (
   "os"
   "sort"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -575,7 +575,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -611,7 +611,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -648,7 +648,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -720,8 +720,8 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
-  "github.com/urfave/cli/altsrc"
+  "github.com/cam-per/cli"
+  "github.com/cam-per/cli/altsrc"
 )
 
 func main() {
@@ -772,7 +772,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -844,7 +844,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -898,7 +898,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -948,7 +948,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -1012,7 +1012,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -1087,7 +1087,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -1136,7 +1136,7 @@ import (
   "io"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -1197,7 +1197,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -1236,7 +1236,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func main() {
@@ -1269,7 +1269,7 @@ import (
   "log"
   "os"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 var (
@@ -1311,7 +1311,7 @@ import (
   "os"
   "time"
 
-  "github.com/urfave/cli"
+  "github.com/cam-per/cli"
 )
 
 func init() {

@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/urfave/cli"
+	"github.com/cam-per/cli"
 )
 
 type testApplyInputSource struct {

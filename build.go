@@ -6,7 +6,7 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"github.com/urfave/cli"
+	"github.com/cam-per/cli"
 	"io/ioutil"
 	"log"
 	"os"
@@ -20,7 +20,7 @@ func main() {
 	app := cli.NewApp()
 
 	app.Name = "builder"
-	app.Usage = "Generates a new urfave/cli build!"
+	app.Usage = "Generates a new cam-per/cli build!"
 
 	app.Commands = cli.Commands{
 		cli.Command{
@@ -60,9 +60,9 @@ func TestActionFunc(c *cli.Context) error {
 		var packageName string
 
 		if pkg == "cli" {
-			packageName = "github.com/urfave/cli"
+			packageName = "github.com/cam-per/cli"
 		} else {
-			packageName = fmt.Sprintf("github.com/urfave/cli/%s", pkg)
+			packageName = fmt.Sprintf("github.com/cam-per/cli/%s", pkg)
 		}
 
 		coverProfile := fmt.Sprintf("--coverprofile=%s.coverprofile", pkg)
