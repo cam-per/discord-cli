@@ -5,7 +5,7 @@ package altsrc
 import (
 	"flag"
 
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 )
 
 // BoolFlag is the flag type that wraps cli.BoolFlag to allow

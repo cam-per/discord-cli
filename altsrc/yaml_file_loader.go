@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 
 	"gopkg.in/yaml.v2"
 )

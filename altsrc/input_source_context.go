@@ -3,7 +3,7 @@ package altsrc
 import (
 	"time"
 
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 )
 
 // InputSourceContext is an interface used to allow

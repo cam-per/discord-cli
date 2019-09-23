@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 )
 
 type testApplyInputSource struct {

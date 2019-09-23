@@ -5,7 +5,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 	"io/ioutil"
 	"log"
 	"os"

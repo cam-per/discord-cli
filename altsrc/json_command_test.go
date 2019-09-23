@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 )
 
 // MapInputSource implements InputSourceContext to return

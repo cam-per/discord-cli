@@ -6,7 +6,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 )
 
 // FlagInputSourceExtension is an extension interface of cli.Flag that

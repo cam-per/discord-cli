@@ -6,7 +6,7 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 	"io/ioutil"
 	"log"
 	"os"
@@ -60,9 +60,9 @@ func TestActionFunc(c *cli.Context) error {
 		var packageName string
 
 		if pkg == "cli" {
-			packageName = "github.com/cam-per/cli"
+			packageName = "github.com/cam-per/discord-cli"
 		} else {
-			packageName = fmt.Sprintf("github.com/cam-per/cli/%s", pkg)
+			packageName = fmt.Sprintf("github.com/cam-per/discord-cli/%s", pkg)
 		}
 
 		coverProfile := fmt.Sprintf("--coverprofile=%s.coverprofile", pkg)

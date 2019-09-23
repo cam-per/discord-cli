@@ -4,7 +4,7 @@ cli
 [![Build Status](https://travis-ci.org/cam-per/cli.svg?branch=master)](https://travis-ci.org/cam-per/cli)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/rtgk5xufi932pb2v?svg=true)](https://ci.appveyor.com/project/cam-per/cli)
 
-[![GoDoc](https://godoc.org/github.com/cam-per/cli?status.svg)](https://godoc.org/github.com/cam-per/cli)
+[![GoDoc](https://godoc.org/github.com/cam-per/discord-cli?status.svg)](https://godoc.org/github.com/cam-per/discord-cli)
 [![codebeat](https://codebeat.co/badges/0a8f30aa-f975-404b-b878-5fab3ae1cc5f)](https://codebeat.co/projects/github-com-urfave-cli)
 [![Go Report Card](https://goreportcard.com/badge/cam-per/cli)](https://goreportcard.com/report/cam-per/cli)
 [![codecov](https://codecov.io/gh/cam-per/cli/branch/master/graph/badge.svg)](https://codecov.io/gh/cam-per/cli)
@@ -69,7 +69,7 @@ the install instructions for Go](http://golang.org/doc/install.html).
 
 To install cli, simply run:
 ```
-$ go get github.com/cam-per/cli
+$ go get github.com/cam-per/discord-cli
 ```
 
 Make sure your `PATH` includes the `$GOPATH/bin` directory so your commands can
@@ -144,7 +144,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -169,7 +169,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -211,7 +211,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -278,7 +278,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -311,7 +311,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -359,7 +359,7 @@ import (
   "os"
   "fmt"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -396,7 +396,7 @@ func main() {
 }
 ```
 
-See full list of flags at http://godoc.org/github.com/cam-per/cli
+See full list of flags at http://godoc.org/github.com/cam-per/discord-cli
 
 #### Placeholder Values
 
@@ -416,7 +416,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -461,7 +461,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -506,7 +506,7 @@ import (
   "os"
   "sort"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -575,7 +575,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -611,7 +611,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -648,7 +648,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -720,8 +720,8 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
-  "github.com/cam-per/cli/altsrc"
+  "github.com/cam-per/discord-cli"
+  "github.com/cam-per/discord-cli/altsrc"
 )
 
 func main() {
@@ -772,7 +772,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -844,7 +844,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -898,7 +898,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -948,7 +948,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -1012,7 +1012,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -1087,7 +1087,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -1136,7 +1136,7 @@ import (
   "io"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -1197,7 +1197,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -1236,7 +1236,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func main() {
@@ -1269,7 +1269,7 @@ import (
   "log"
   "os"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 var (
@@ -1311,7 +1311,7 @@ import (
   "os"
   "time"
 
-  "github.com/cam-per/cli"
+  "github.com/cam-per/discord-cli"
 )
 
 func init() {

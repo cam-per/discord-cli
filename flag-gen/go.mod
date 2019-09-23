@@ -1,9 +1,9 @@
-module github.com/cam-per/cli/flag-generator
+module github.com/cam-per/discord-cli/flag-generator
 
 go 1.12
 
 require (
 	github.com/shurcooL/httpfs v0.0.0-20190707220628-8d4bc4ba7749
 	github.com/shurcooL/vfsgen v0.0.0-20181202132449-6a9ea43bcacd
-	github.com/cam-per/cli v1.21.0
+	github.com/cam-per/discord-cli v1.21.0
 )

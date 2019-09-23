@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 )
 
 // NewJSONSourceFromFlagFunc returns a func that takes a cli.Context

@@ -10,7 +10,7 @@ import (
 	"reflect"
 
 	"github.com/BurntSushi/toml"
-	"github.com/cam-per/cli"
+	"github.com/cam-per/discord-cli"
 )
 
 type tomlMap struct {
