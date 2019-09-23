@@ -1,4 +1,4 @@
-module github.com/cam-per/cli
+module github.com/cam-per/discord-cli
 
 go 1.10
 
